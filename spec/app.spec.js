@@ -24,9 +24,10 @@ describe("Express Server API", function() {
         supertest(app)
           .get('/edison')
           .expect({
-            name: 'Junius',
-            job: 'asking questions',
-            age: 26
+            name: 'Edison Sim',
+            age: 26,
+            email: 'edison_sxw1@hotmail.com',
+            hobbies: 'Kdrama'
           }, done);
       });
   });
