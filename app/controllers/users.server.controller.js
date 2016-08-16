@@ -5,7 +5,7 @@ module.exports = {
         name: 'Edison Sim',
         age: 26,
         email: 'edison_sxw1@hotmail.com',
-        hobbies: '',
+        hobbies: 'Kdrama & movie',
         aboutme: ''
       }
     );
