@@ -10,23 +10,23 @@ var contact_url = base_url + 'contact';
 //   done();
 // }
 
+
 describe("Express Server API", function() {
-  describe("should return users json on get /me", function() {
+  describe("should return users json on get /edison", function() {
       it("returns status code 200", function(done) {
         supertest(app)
-          .get('/me')
+          .get('/edison')
           .expect('Content-Type', /json/)
           .expect(200, done);
       });
 
-      it("returns a correct json format", function(done) {
+      xit("returns a correct json format", function(done) {
         supertest(app)
-          .get('/me')
+          .get('/edison')
           .expect({
-            name: 'Edison Sim',
-            age: 26,
-            email: 'edison_sxw1@hotmail.com',
-            hobbies: 'Kdrama & movie'
+            name: 'Junius',
+            job: 'asking questions',
+            age: 26
           }, done);
       });
   });
