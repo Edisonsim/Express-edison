@@ -2,9 +2,9 @@ module.exports = {
   show: function(req, res) {
 
     res.json( {
-        name: 'junius2',
-        age: 27,
-        email: 'junius2@gmail.com',
+        name: 'Edison Sim',
+        age: 26,
+        email: 'edison_sxw1@hotmail.com',
         hobbies: '',
         aboutme: ''
       }
