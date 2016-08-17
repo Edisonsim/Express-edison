@@ -20,7 +20,7 @@ describe("Express Server API", function() {
           .expect(200, done);
       });
 
-      xit("returns a correct json format", function(done) {
+      it("returns a correct json format", function(done) {
         supertest(app)
           .get('/edison')
           .expect({
